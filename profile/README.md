@@ -10,10 +10,15 @@ Relay is a small collection of reusable command-line interfaces. We make server 
 
 ## What we are building
 
-| Server activity | Conversations | Application shells |
+| [Server activity](https://github.com/relay-cli/relay-cards) | [Conversations](https://github.com/relay-cli/relay-chat) | Application shells |
 | --- | --- | --- |
 | Structured cards for requests, JSON, errors, and process events. | A reusable chat interface with streaming messages and multiline input. | Navigation and page layouts for terminal dashboards and small tools. |
 
 Each project includes a working demonstration. You can see the interface before connecting it to your own application, then use the pieces you need.
 
-The first repository will be published after its demo, tests, documentation, and release package are ready.
+## Repositories
+
+- [Relay Cards](https://github.com/relay-cli/relay-cards) runs a server command and presents its output as readable terminal cards.
+- [Relay Chat](https://github.com/relay-cli/relay-chat) is a reusable terminal chat interface with streamed replies and a provider-neutral model adapter.
+
+Application shells are next. Each repository will be listed here once its demo, tests, documentation, and release package are ready.
